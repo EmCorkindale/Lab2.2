@@ -33,20 +33,22 @@
 
     /* II. Box model and common properties */
     .box {
-      width: 50rem;
-      height: auto;
-      border: 10px solid rgb(20, 51, 77);
+      height: 300px;
+      width: 300px;
+      border-width: 5px;
+      border-style: solid;
       border-radius: 50%;
       padding: 10px;
       margin: 10px;
-      overflow: auto;
+      overflow: scroll;
+      text-overflow: ellipsis;
       outline: 10px;
     }
 
     body {
       background-image: url("img1.png");
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: center;
     }
 
